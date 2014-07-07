@@ -1,9 +1,10 @@
 import datetime
+import json
 import time
 
 from django.db import models
 from django.core.serializers.json import DjangoJSONEncoder
-from django.utils import simplejson as json
+
 
 def get_timestamp(date_time):
     """
@@ -12,6 +13,7 @@ def get_timestamp(date_time):
     Javascript or the Unix timestamp times 1000.
     """
     return time.mktime(date_time.timetuple()) * 1000
+
 
 def get_datetime(timestamp):
     """

@@ -4,7 +4,7 @@ DJANGO-LOGDB
 Django-logdb enables you to log entries to a database, aggregate and act on 
 them with certain rules, and gives you more insight in what's going on.
 
-Django-logdb requires Django 1.1 and higher.
+Django-logdb requires Django 1.3 and higher.
 
 Description
 -----------
